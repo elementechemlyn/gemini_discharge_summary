@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NHS Discharge Summary</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: auto;
+        }
+        h1, h2, h3 {
+            color: #005EB8; /* NHS Blue */
+            border-bottom: 1px solid #005EB8;
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+        h1 {
+            text-align: center;
+            border-bottom: none;
+        }
+        h2 {
+             font-size: 1.4em;
+        }
+        h3 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section p {
+            margin-bottom: 5px;
+        }
+        .section ul {
+            padding-left: 20px;
+        }
+        .section ul li {
+            margin-bottom: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .important {
+            color: #d4351c; /* NHS Red */
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <h1>Discharge Summary for Eleanor Vance</h1>
+
+        <div class="section">
+            <h2>Patient Details</h2>
+            <p><strong>Name:</strong> Eleanor Vance</p>
+            <p><strong>Date of Birth:</strong> 15/03/1969</p>
+            <p><strong>NHS Number:</strong> 987 654 3210</p>
+            <p><strong>Sex:</strong> Female</p>
+            <p><strong>Age:</strong> 55</p>
+            <p><strong>Address:</strong> 27 Maple Drive, Newtown, NT1 2PQ</p>
+        </div>
+
+        <div class="section">
+            <h2>Admission Details</h2>
+            <p><strong>Hospital:</strong> Riverside General Hospital</p>
+            <p><strong>Address:</strong> Hospital Way, Newtown, NT1 3RR</p>
+            <p><strong>Admission Date:</strong> 04/06/2024</p>
+            <p><strong>Admission Time:</strong> 14:30</p>
+            <p><strong>Admitting Ward:</strong> Spruce Ward</p>
+            <p><strong>Admitting Consultant:</strong> Dr. Alan Carter (Orthopaedics)</p>
+        </div>
+
+         <div class="section">
+            <h2>Discharge Details</h2>
+            <p><strong>Discharge Date:</strong> 11/06/2024</p>
+            <p><strong>Discharge Time:</strong> 11:00</p>
+            <p><strong>Discharging Ward:</strong> Willow Ward</p>
+            <p><strong>Discharge Destination:</strong> Home with re-ablement support package</p>
+        </div>
+
+        <div class="section">
+            <h2>Reason for Admission</h2>
+            <p>Admitted following a mechanical fall at home, resulting in significant pain and inability to weight bear on the right leg. Initial assessment in ED suspected a right neck of femur fracture.</p>
+        </div>
+
+        <div class="section">
+            <h2>Summary of Stay</h2>
+            <p>Mrs. Vance was admitted under the care of the Orthopaedic team. Investigations confirmed a displaced right neck of femur fracture. She underwent a right hip hemiarthroplasty on 05/06/2024. The procedure was uneventful. Post-operatively, she commenced physiotherapy and occupational therapy input. Pain managment was controlled with regular paracetamol and opiods initially, stepping down as appropriate. She recievd VTE prophylaxis throughout her stay. Her pre-existing hypertension and type 2 diabetes were monitored and managed, with blood pressure and glucose levels remaining stable on her usual medications. Wound check prior to dischrge was satisfactory. Mobility improved with physio, able to mobilise short distances with a zimmer frame.</p>
+        </div>
+
+        <div class="section">
+            <h2>Diagnosis on Discharge</h2>
+            <ul>
+                <li>Right Neck of Femur Fracture (post right hip hemiarthroplasty)</li>
+                <li>Hypertension</li>
+                <li>Type 2 Diabetes Mellitus</li>
+            </ul>
+        </div>
+
+         <div class="section">
+            <h2 class="important">Allergies and Adverse Reactions</h2>
+            <ul>
+                <li><strong>Penicillin:</strong> Reported reaction - Rash</li>
+                 <li><strong>Tramadol:</strong> Reported reaction - Nausea, confusion</li>
+            </ul>
+        </div>
+
+
+        <div class="section">
+            <h2>Medications on Discharge</h2>
+            <p>Please note the following medications to be taken on discharge:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Drug Name</th>
+                        <th>Form/Strength</th>
+                        <th>Dose</th>
+                        <th>Frequency</th>
+                        <th>Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Amlodipine</td>
+                        <td>Oral Tablet 5mg</td>
+                        <td>One tablet</td>
+                        <td>Once daily (morning)</td>
+                        <td>Continue usual home medication</td>
+                    </tr>
+                     <tr>
+                        <td>Metformin</td>
+                        <td>Oral Tablet 500mg</td>
+                        <td>One tablet</td>
+                        <td>Twice daily (with breakfast and evening meal)</td>
+                         <td>Continue usual home medication</td>
+                    </tr>
+                     <tr>
+                        <td>Atorvastatin</td>
+                        <td>Oral Tablet 20mg</td>
+                        <td>One tablet</td>
+                        <td>Once daily (at night)</td>
+                         <td>Continue usual home medication</td>
+                    </tr>
+                    <tr>
+                        <td>Paracetamol</td>
+                        <td>Oral Tablet 500mg</td>
+                        <td>Two tablets (1g)</td>
+                        <td>Four times a day (when requred for pain)</td>
+                        <td>Max 8 tablets in 24 hours</td>
+                    </tr>
+                     <tr>
+                        <td>Codeine Phosphate</td>
+                        <td>Oral Tablet 30mg</td>
+                        <td>One or two tablets</td>
+                        <td>Up to four times a day (when required for pain, if paracetamol insufficient)</td>
+                        <td>Use alongside Paracetamol. May cause constipation.</td>
+                    </tr>
+                    <tr>
+                        <td>Rivaroxaban</td>
+                        <td>Oral Tablet 10mg</td>
+                        <td>One tablet</td>
+                        <td>Once daily</td>
+                        <td class="important">For VTE prophylaxis. Take for a total of 14 days from discharge date.</td>
+                    </tr>
+                     <tr>
+                        <td>Calcium Carbonate 1250mg / Colecalciferol 400 unit</td>
+                        <td>Chewable Tablet</td>
+                        <td>One tablet</td>
+                        <td>Twice daily</td>
+                        <td>For bone health</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>Treatment and Follow-up Plan</h2>
+            <ul>
+                <li>Outpatient physiotherapy referral has been made. Patient will be contacted with an appoinment.</li>
+                <li>Community re-ablement team will provide support with activities of daily living and mobility progression at home for an initial period.</li>
+                <li>GP review recommended in 1-2 weeks post-discharge to monitor blood pressure, diabetes control, wound healing, and medication tolerance.</li>
+                <li>Patient advised on pain managment strategies and gradual increase in activity level as tolerated.</li>
+                <li>Advised to continue using zimmer frame for mobility initially and transition to sticks as strength and confidence improve.</li>
+                <li>Wound care advice given. Patient to keep wound clean and dry. Contact GP if signs of infection develop (increased pain, redness, swelling, discharge). Staples/sutures to be removed by District Nurse or GP practice nurse at approximately 10-14 days post-op.</li>
+                <li>Encourage good hydration and fibre intake to minimise risk of constipation, especially if taking Codeine.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Social Situation and Next of Kin</h2>
+            <p>Lives alone in a two-storey house. Stairs may be a barrier initially. Son, Mr. David Vance, is Next of Kin and aware of admission and discharge plans. He is able to provide some support.</p>
+        </div>
+
+        <div class="section">
+            <h2>Receiving General Practitioner</h2>
+            <p><strong>Name:</strong> Dr. Sarah Patel</p>
+            <p><strong>Practice:</strong> Willow Creek Surgery</p>
+            <p><strong>Address:</strong> Village Green, Oldtown, OT2 4YZ</p>
+            <p><strong>Tel:</strong> 0123 456 7890</p>
+        </div>
+
+        <div class="section">
+            <h2>Responsible Clinician</h2>
+            <p>Dr. Alan Carter, Consultant Orthopaedic Surgeon</p>
+            <p>Riverside General Hospital</p>
+        </div>
+
+        <div class="section">
+            <p>Summary prepared by: Dr. Benjamin Lee, Orthopaedic Registrar</p>
+            <p>Date Summary Prepared: 11/06/2024</p>
+        </div>
+
+        <hr>
+        <p style="text-align: center; font-size: 0.9em; color: #666;">This is a synthetically generated document and contains no real patient or clinical data.</p>
+
+    </div>
+</body>
+</html>
