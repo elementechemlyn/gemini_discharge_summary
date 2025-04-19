@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discharge Summary</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f8f8f8;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+            width: 30%;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+        .overview, .clinical-summary, .plan {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Discharge Summary for John Doe</h1>
+
+        <div class="overview">
+            <h2>Overview</h2>
+            <p>
+                John Doe is a 64-year-old man who lives with his wife in a bungalow. He is a retired builder. He has a past medical history of Chronic Obstructive Pulmonary Disease (COPD) and Essential Hypertension.
+            </p>
+            <p>
+                He was refered to City General Hospital MAU by his GP and was subsequently admitted on the 20th of May 2024. He had a 4-day history of increasing breathlessnes, wheeze, and a productiv cough producing green sputum. He had a low-grade temperatrure of 38.1 degrees Celsius on admission.
+            </p>
+            <p>
+                His CXR showed hyperinflated lungs consistent with COPD but no focal consolidation. His CRP was raised at 65 but his WBC was only slightly raised. His SpO2 was 94% on room air.
+            </p>
+            <p>
+                He was treated for an infective exacerbation of COPD and recieved nebulised salbutamol and ipratropium bromide as needed, oral prednisolone and began a course of Amoxacillin.
+            </p>
+            <p>
+                Following initial assessment on the MAU he was transfered to Ward B at City General Hospital under the care of Dr E White, Consltant in Respiratory Medicine. His medications on admission were:
+            </p>
+            <ul>
+                <li>Salbutamol 100 microgams 2 puffs, inhaled PRN</li>
+                <li>Beclomethasone 100 microgams 2 puffs BD</li>
+                <li>Amlodipine 5mg OD</li>
+            </ul>
+            <p>
+                He reported a previous allergy to Aspirin, experienced more than 10 years ago, causing a widespread rash. During his admission, the Beclomethasone was stopped and replaced by a Budesonide/Formoterol combination inhaler. His amlodipine was increased to 10mg OD as his BP was persistanly elevated.
+            </p>
+            <p>
+                He made a rapid improvement, did not require any nebulised treatment after the first day and was therefore discharged home on the evening of 22nd May 2024.
+            </p>
+            <p>His medication on discharge was:</p>
+             <ul>
+                <li>Salbutamol 100 micrograms 2 puffs, inhaled PRN</li>
+                <li>Budesonide 400mcg / Formoterol 12mcg dry powder inhaler, 1 puff BD</li>
+                <li>Prednisolone 40mg OD for 5 days</li>
+                <li>Amoxicillin 500mg TDS for 7 days</li>
+                <li>Amlodipine 10mg OD</li>
+            </ul>
+            <p>
+                No hospital follow up has been arranged but a referral was sent to the Comunity COPD Spcialist Nurse who will arrange to visit him in the next 1-2 weeks. His GP was asked to review his BP a week after discharge.
+            </p>
+        </div>
+
+        <div class="patient-demographics">
+            <h2>Patient demographics</h2>
+            <table>
+                <tr>
+                    <th>Patient name</th>
+                    <td>DOE, John (Mr)</td>
+                </tr>
+                <tr>
+                    <th>Date of birth</th>
+                    <td>15-Mar-1960</td>
+                </tr>
+                <tr>
+                    <th>Gender</th>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <th>NHS number</th>
+                    <td>Verified - 987 654 3210</td>
+                </tr>
+                <tr>
+                    <th>Home Address</th>
+                    <td>12 Oak Avenue, Meadowville, Green County, GV12 3AB</td>
+                </tr>
+                <tr>
+                    <th>Phone</th>
+                    <td>01234 567890</td>
+                </tr>
+                <tr>
+                    <th>Document Created</th>
+                    <td>23-May-2024</td>
+                </tr>
+                 <tr>
+                    <th>Document Owner</th>
+                    <td>CITY GENERAL HOSPITAL</td>
+                </tr>
+                <tr>
+                    <th>Authored by</th>
+                    <td>Dr B GREEN - Registrar, CITY GENERAL HOSPITAL</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="edischarge-summary">
+             <h2>eDischarge Summary</h2>
+             <h3>Other participant(s) in this document:</h3>
+             <table>
+                <tr>
+                    <th>Name</th>
+                    <td>Dr E White</td>
+                </tr>
+                <tr>
+                    <th>Organisation</th>
+                    <td>CITY GENERAL HOSPITAL</td>
+                </tr>
+                <tr>
+                    <th>Address</th>
+                    <td>Hospital Way, Cityville, City County, CY1 2ZX</td>
+                </tr>
+             </table>
+             <h3>Referred by:</h3>
+             <table>
+                <tr>
+                    <th>Referrer name</th>
+                    <td>Dr C BROWN</td>
+                </tr>
+                <tr>
+                    <th>Job title</th>
+                    <td>General Medical Practitioner</td>
+                </tr>
+                <tr>
+                    <th>Referrer organisation</th>
+                    <td>Meadowville Surgery</td>
+                </tr>
+             </table>
+             <h3>Urgent notification</h3>
+             <table>
+                <tr>
+                    <th>Name</th>
+                    <td>Jane Doe</td>
+                </tr>
+                <tr>
+                    <th>Relatioship</th>
+                    <td>Spouse</td>
+                </tr>
+             </table>
+        </div>
+
+        <div class="social-context">
+            <h2>Social context</h2>
+            <table>
+                <tr>
+                    <th>Household composition</th>
+                    <td>Lives with wife.</td>
+                </tr>
+                <tr>
+                    <th>Occupational history</th>
+                    <td>Retired builder</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="admission-details">
+            <h2>Admission details</h2>
+             <table>
+                <tr>
+                    <th>Reason for admission</th>
+                    <td>Breathless, wheeze and productive cough (Exacerbation of COPD)</td>
+                </tr>
+                <tr>
+                    <th>Admission method</th>
+                    <td>GP after a request for immediate admission has been made direct to a Hospital Provider</td>
+                </tr>
+                 <tr>
+                    <th>Source of admission</th>
+                    <td>Usual place of residence</td>
+                </tr>
+                <tr>
+                    <th>Date/time of admission</th>
+                    <td>20-May-2024, 1000hrs</td>
+                </tr>
+             </table>
+        </div>
+
+         <div class="discharge-details">
+            <h2>Discharge details</h2>
+             <table>
+                <tr>
+                    <th>Dischargingg consultant</th>
+                    <td>Dr E WHITE</td>
+                </tr>
+                <tr>
+                    <th>Discharging specialty / department</th>
+                    <td>Respiratory Medicine</td>
+                </tr>
+                 <tr>
+                    <th>Discharge location</th>
+                    <td>Ward B</td>
+                </tr>
+                <tr>
+                    <th>Date/time of discharge</th>
+                    <td>22-May-2024, 1430hrs</td>
+                </tr>
+                 <tr>
+                    <th>Discharge method</th>
+                    <td>PATIENT discharged on clinical advice or with clinical consent</td>
+                </tr>
+                 <tr>
+                    <th>Discharge destination</th>
+                    <td>Usual place of residence</td>
+                </tr>
+             </table>
+        </div>
+
+         <div class="diagnoses">
+            <h2>Diagnoses</h2>
+             <table>
+                <tr>
+                    <th>Diagnosis</th>
+                    <td>Infective exacerbation of COPD</td>
+                </tr>
+                <tr>
+                    <th>Comment</th>
+                    <td>Primary reason for admission</td>
+                </tr>
+             </table>
+              <table>
+                <tr>
+                    <th>Diagnosis</th>
+                    <td>Essential Hypertension</td>
+                </tr>
+                <tr>
+                    <th>Comment</th>
+                    <td>Secondary diagnosis and treated on this admission</td>
+                </tr>
+             </table>
+        </div>
+
+        <div class="clinical-summary">
+            <h2>Clinical summary</h2>
+             <p>
+                 Mr Doe presented with a 4-day history of increasing breathlessnes, wheeze, productiv cough (green sputum) and low-grade pyrexia (38.1 degrees Celsius). His CXR showed no focal consolidation, his CRP was 65 and his WBC was slightly raised. He was treated for an infective exacerbation of his COPD with nebulised salbutamol and ipratropium as needed and started on steroids and antibiotics. He quickly improved and was well enough for discharge on day 2.
+            </p>
+        </div>
+
+        <div class="investigation-results">
+             <h2>Investigation results</h2>
+             <table>
+                <tr>
+                    <th>Investigation result</th>
+                    <td>Chest X-ray (20th May 2024) - hyperinflated lungs consistent with the clinical story of COPD. No focal consolidation or pneumothorax seen. No focal mass seen. Appearances are unchanged compared to previous CXR 10th January 2024.</td>
+                </tr>
+             </table>
+        </div>
+
+        <div class="medications">
+            <h2>Medications and medical devices</h2>
+            <h3>Medication item (On Admission - Implicit)</h3>
+             <table>
+                <tr><th>Medication name</th><td>Salbutamol</td></tr>
+                <tr><th>Route</th><td>Inhaled</td></tr>
+                <tr><th>Dose amount</th><td>100 micrograms per puff X 2</td></tr>
+                <tr><th>Dose timing</th><td>PRN</td></tr>
+             </table>
+              <h3>Medication item (On Admission - Implicit)</h3>
+             <table>
+                <tr><th>Medication name</th><td>Beclomethasone</td></tr>
+                <tr><th>Route</th><td>Inhaled</td></tr>
+                <tr><th>Dose amount</th><td>100 micrograms per puff X 2</td></tr>
+                <tr><th>Dose timing</th><td>Twice daily</td></tr>
+             </table>
+             <h3>Medication item (On Admission - Implicit)</h3>
+             <table>
+                <tr><th>Medication name</th><td>Amlodipine</td></tr>
+                <tr><th>Route</th><td>Oral</td></tr>
+                <tr><th>Dose amount</th><td>5mg</td></tr>
+                <tr><th>Dose timing</th><td>Once daily</td></tr>
+             </table>
+
+
+            <h3>Medication item (On Discharge)</h3>
+             <table>
+                <tr><th>Medication name</th><td>Salbutamol</td></tr>
+                <tr><th>Route</th><td>Inhaled</td></tr>
+                <tr><th>Dose amount</th><td>100 micrograms per puff X 2</td></tr>
+                <tr><th>Dose timing</th><td>PRN</td></tr>
+             </table>
+             <h3>Medication item (On Discharge)</h3>
+             <table>
+                <tr><th>Medication name</th><td>Budesonide + Formoterol</td></tr>
+                <tr><th>Route</th><td>Inhaled</td></tr>
+                <tr><th>Dose amount</th><td>400 micrograms / 12 micrograms per inhalation X 1</td></tr>
+                <tr><th>Dose timing</th><td>Twice daily</td></tr>
+             </table>
+              <h3>Medication item (On Discharge)</h3>
+             <table>
+                <tr><th>Medication name</th><td>Prednisolone</td></tr>
+                <tr><th>Route</th><td>Oral</td></tr>
+                <tr><th>Dose amount</th><td>40mg</td></tr>
+                <tr><th>Dose timing</th><td>Once daily for 5 days only</td></tr>
+             </table>
+              <h3>Medication item (On Discharge)</h3>
+             <table>
+                <tr><th>Medication name</th><td>Amoxicillin</td></tr>
+                <tr><th>Route</th><td>Oral</td></tr>
+                <tr><th>Dose amount</th><td>500mg</td></tr>
+                <tr><th>Dose timing</th><td>Three times daily for 7 days only</td></tr>
+             </table>
+              <h3>Medication item (On Discharge)</h3>
+             <table>
+                <tr><th>Medication name</th><td>Amlodipine</td></tr>
+                <tr><th>Route</th><td>Oral</td></tr>
+                <tr><th>Dose amount</th><td>10mg</td></tr>
+                <tr><th>Dose timing</th><td>Once daily</td></tr>
+             </table>
+
+             <h3>Medication change summary</h3>
+             <table>
+                <tr><th>Medication name</th><td>Budesonide + Formoterol</td></tr>
+                <tr><th>Description of amendment</th><td>Added</td></tr>
+                <tr><th>Indication (for medication change)</th><td>Improved long-acting bronchodilator and steroid treatment for COPD</td></tr>
+             </table>
+             <table>
+                <tr><th>Medication name</th><td>Prednisolone</td></tr>
+                <tr><th>Description of amendment</th><td>Added</td></tr>
+                 <tr><th>Indication (for medication change)</th><td>Acute treatment for COPD exacerbation</td></tr>
+             </table>
+              <table>
+                <tr><th>Medication name</th><td>Amoxicillin</td></tr>
+                <tr><th>Description of amendment</th><td>Added</td></tr>
+                 <tr><th>Indication (for medication change)</th><td>Treatment of chest infection</td></tr>
+             </table>
+              <table>
+                <tr><th>Medication name</th><td>Amlodipine</td></tr>
+                <tr><th>Description of amendment</th><td>Dose increased from 5mg to 10mg</td></tr>
+                 <tr><th>Indication (for medication change)</th><td>Increased treatment for hypertension</td></tr>
+                 <tr><th>Date of latest change</th><td>21-May-2024</td></tr>
+             </table>
+
+             <h3>Name of discontinued medication</h3>
+             <table>
+                 <tr><th>Name of discontinued medication</th><td>Beclomethasone</td></tr>
+                 <tr><th>Description of amendment</th><td>Stopped</td></tr>
+                 <tr><th>Comment</th><td>Replaced with Budesonide + Formoterol combination</td></tr>
+             </table>
+        </div>
+
+         <div class="allergies">
+             <h2>Allergies and adverse reactions</h2>
+             <table>
+                 <tr><th>Causative Agent</th><td>Aspirin</td></tr>
+                 <tr><th>Reaction details</th><td>History of widespread rash</td></tr>
+                 <tr><th>Reaction</th><td>Rash</td></tr>
+                 <tr><th>Type of reaction</th><td>Allergic</td></tr>
+                 <tr><th>Date first experienced</th><td>>10 years ago</td></tr>
+             </table>
+        </div>
+
+        <div class="investigations-procedures-requested">
+            <h2>Investigations and procedures requested</h2>
+             <table>
+                 <tr><th>Investigations requested</th><td>No Investigations requested</td></tr>
+                 <tr><th>Procedures requested</th><td>No procedures requested</td></tr>
+             </table>
+        </div>
+
+         <div class="plan">
+            <h2>Plan and requested actions</h2>
+             <h3>Actions for healthcare professionals</h3>
+             <ul>
+                 <li>Referral made to Comunity COPD Spcialist Nurse for follow up in 1-2 weeks</li>
+                 <li>Message to GP - please could you monitor patients BP. Patient asked to make an appointment in 1 week.</li>
+             </ul>
+         </div>
+
+         <div class="person-completing">
+             <h2>Person completing record</h2>
+             <table>
+                <tr><th>Name</th><td>Dr B GREEN</td></tr>
+                <tr><th>Grade</th><td>Registrar</td></tr>
+                <tr><th>Date completed</th><td>23-May-2024</td></tr>
+                <tr><th>Contact details</th><td>Pager 54321</td></tr>
+             </table>
+         </div>
+
+        <div class="document-details">
+             <h2>Document details</h2>
+             <table>
+                <tr><th>Document ID</th><td>B987XY1Z-4E5F-6G7H-8I9J-0K1L2M3N4O5P</td></tr>
+                <tr><th>Version</th><td>V1</td></tr>
+                <tr><th>Primary recipients</th><td>Dr C Brown, General Medical Practitioner, Meadowville Surgery</td></tr>
+                <tr><th>Copy recipients</th><td>Sister L DAVIES - Spcialist Nurse Practitioner, Community COPD Team<br>John Doe, Patient</td></tr>
+             </table>
+        </div>
+
+    </div>
+</body>
+</html>
