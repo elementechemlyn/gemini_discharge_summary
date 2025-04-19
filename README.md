@@ -11,7 +11,7 @@ https://theprsb.org/standards/edischargesummary/#examples
 
 The PDF included in this repository is copyright of the PRSB.
 
-No real data was used harmed during the making of these examples and publically available models have been used.
+No real data was used to make these examples and publically available models have been used.
 
 ## Usage
 
