@@ -24,3 +24,5 @@ Run the `zeroshot.py` script to generate discharge summaries using a prompt whic
 Run the `oneshot.py` script to generate discharge summaries using a prompt which gives a single example (the PRSB example).  The prompt is harcdoded in the source file.
 
 Example outputs are included in the outputs folder if you don't want to generate your own.
+
+PDFs have been generated from the html using the script pdfify.sh in the outputs folder.
